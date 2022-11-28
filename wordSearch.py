@@ -3,9 +3,7 @@ DOWN=(0,1)         # to go down add 1 to y
 RIGHT_DOWN=(1, 1)  # to go right_down add 1 to both x and y
 RIGHT_UP=(1,-1)    # to go right_up add 1 to x and subtract 1 from y
 DIRECTIONS = (RIGHT, DOWN, RIGHT_DOWN, RIGHT_UP)
-# Good use of these direction-tuples makes for much easier programs for this project. assignment.
 
-### LEAVE THESE LINES ALONE END:
 
 
 def get_size(word_grid):
